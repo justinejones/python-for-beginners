@@ -1,0 +1,19 @@
+-   repo: local
+    hooks:
+    -   id: pylint
+        name: pylint
+        entry: python -m pylint.__main__
+        language: system
+        types: [python]
+    -   id: check-x
+        name: Check X
+        entry: ./bin/check-x.sh
+        language: script
+        files: \.x$
+    -   id: scss-lint
+        name: scss-lint
+        entry: scss-lint
+        language: ruby
+        language_version: 2.1.5
+        types: [scss]
+        additional_dependencies: ['scss_lint:0.52.0']

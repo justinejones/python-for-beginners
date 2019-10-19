@@ -16,10 +16,10 @@ todo...
 
 ### Installing
 
-TODO...
+Install the python requirements
 
 ```
-TODO...
+pip install -r requirements.txt
 ```
 
 ## Running the tests
