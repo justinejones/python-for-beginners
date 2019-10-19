@@ -26,8 +26,16 @@ pip install -r requirements.txt
 
 ## Running the tests
 
-TODO...
+Install test requirements
 
+```
+pip install -r requirements_test.txt
+```
+
+Execute the tests
+```
+pytest tests/
+```
 
 ## Deployment
 
