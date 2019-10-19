@@ -8,11 +8,13 @@ TODO...
 
 ### Prerequisites
 
-TODO...
+Python 3
 
 ```
-todo...
+python --version
 ```
+
+* [Python Install](https://www.python.org/downloads/)
 
 ### Installing
 
