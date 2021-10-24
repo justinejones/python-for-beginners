@@ -12,6 +12,14 @@ def read_json_file(file_to_read: str) -> dict:
 
     :rtype: dict
     """
-    json_file = dict()
+    json_results = dict()
 
-    return json_file
+    with open(file_to_read, 'r') as json_file:
+        json_results = json.load(json_file)
+
+    return json_results
+
+
+if __name__ == '__main__':
+    result = read_json_file('./json_test_file.json')
+    print(result)
