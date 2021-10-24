@@ -14,3 +14,14 @@ def test_reading_json_files():
     """
     response = reading_files.read_json_file(f"{path}/json_test_file.json")
     assert response
+
+
+def test_reading_csv_files():
+    """Test for reading csv files.
+
+    :raises:
+
+    :rtype:
+    """
+    response = reading_files.reading_csv_file(f"{path}/csv_test_file.csv")
+    assert response

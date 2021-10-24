@@ -1,5 +1,6 @@
 """The following module demonstrates how to read files"""
 import json
+import csv
 
 
 def read_json_file(file_to_read: str) -> dict:
@@ -18,3 +19,22 @@ def read_json_file(file_to_read: str) -> dict:
         json_results = json.load(json_file)
 
     return json_results
+
+
+def reading_csv_file(file):
+    """Reading csv files
+
+    :type file:
+    :param file:
+
+    :raises:
+
+    :rtype:
+    """
+
+    response = list()
+    with open(file, 'r') as csv_file:
+        csv_reader = csv.reader(csv_file)
+        for row in csv_reader:
+            response.append(row)
+    return response
