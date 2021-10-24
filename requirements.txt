@@ -24,7 +24,7 @@ packaging==19.2
 pep8==1.7.1
 pluggy==0.13.0
 pre-commit==1.18.3
-py==1.8.0
+py==1.10.0
 pycode==0.1.2
 pycodestyle==2.5.0
 pydocstyle==4.0.1
