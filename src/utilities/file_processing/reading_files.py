@@ -37,3 +37,4 @@ def reading_csv_file(file):
         csv_reader = csv.reader(csv_file)
         for row in csv_reader:
             response.append(row)
+    return response
